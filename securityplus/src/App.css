@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.option{
+  margin-left: 1rem;
+  transition: ease-in-out 5s;
+}
+body{
+  background-color: black;
+}
+
+
+.question{
+  margin-bottom: 5rem;
+  background-color: rgb(10, 41, 82);
+  color: white;
+  font-weight: 700;
+  border-top-right-radius: 2rem ;
+  border-top-left-radius:2rem ;
+  border-bottom-left-radius:2rem ;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 1px 1px .2rem blue;
+  padding: .2rem;
+}
+.action{
+  font-weight: 700;
+  border-top-right-radius: 1rem ;
+  border-top-left-radius:1rem ;
+  border-bottom-left-radius:1rem ;
+  border-bottom-right-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.explanation{
+  background-color: rgb(10, 41, 82);
+  color: white;
+  box-shadow: 1px 1px .2rem blue;
+  font-weight: 700;
+  border-top-right-radius: 2rem ;
+  border-top-left-radius:2rem ;
+  border-bottom-left-radius:2rem ;
+  border-bottom-right-radius: 2rem;
+  margin-top: 4rem;
+}
+
+.page{
+  font-weight: 600;
+  padding: .2rem 1.5rem;
+  font-size: 1.2rem;
+  border-top-right-radius: 1rem ;
+  border-top-left-radius:1rem ;
+  border-bottom-left-radius:1rem ;
+  border-bottom-right-radius: 1rem;
+  background-color: rgb(11, 187, 11);
+  box-shadow: 1px 1px .1rem rgb(3, 121, 19);
+}
+.action:hover{
+  box-shadow: 2px 2px 1rem white;
+}
+.page:hover{
+  background-color: rgb(0, 255, 0);
+  box-shadow: 2px 2px 1rem rgb(1, 255, 64) ;
+}
+
+.btn-exp{
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: .2rem .9rem;
+  border-top-right-radius: 1rem ;
+  border-top-left-radius:1rem ;
+  border-bottom-left-radius:1rem ;
+  border-bottom-right-radius: 1rem;
+  background-color: rgb(11, 187, 11);
+  margin-top: 3rem;
+}
+
+
+.btn-exp:hover{
+  background-color: rgb(0, 255, 0);
+  box-shadow: 2px 2px 1rem rgb(1, 255, 64) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+  .question{
+    padding: .5rem;
+  }
+}

@@ -8,7 +8,7 @@ import {BrowserRouter, Route, RouterProvider, Routes, createBrowserRouter} from 
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/sec",
     element: <App/> 
   }
 ])

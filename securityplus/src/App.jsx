@@ -552,84 +552,81 @@ const handleExplanation=()=>{
 }
 
 return (
-    <div className="App">
-      <div className="row mt-3 mt-sm-5">
-          <div className="col-11 col-sm-8 mx-auto" >
-            <div className="question" >
-               <p>{questions[currentQuestion].question}</p>
-            </div>
-         <div className="d-grid">
+  <div className="App">
+  <div className="row mt-3 mt-sm-5">
+      <div className="col-11 col-sm-8 mx-auto" >
+        <div className="question" >
+           <p>{questions[currentQuestion].question}</p>
+        </div>
+        <div className="d-grid">
 
-        
-          <div className="d-flex row" >
+    
+          <div className="d-grid d-md-flex justify-content-center row" >
             <div className="button col-6">
-               <button className='action' onClick={handleAnswer}  style={{background: color}} >
-          {value1}
-         </button>
-            </div>
-            <div className="button col-6">
-               <button className='action' onClick={handleAnswer}  style={{background: color2}}>
-          {value2}
-         </button>
+              <div className='action' onClick={handleAnswer}  style={{background: color}} >
+                {value1}
               </div>
+            </div>
+            <div className="button col-6">
+              <div className='action' onClick={handleAnswer}  style={{background: color2}}>
+              {value2}
+            </div>
+            </div>
+          </div>
+
+          <div className="d-grid d-md-flex row">
+            <div className="button col-6">
+              <div className='action' onClick={handleAnswer} style={{background: color3}}>
+                {value3}
+              </div>
+            </div>
+            <div className="button col-6">
+              <div className='action' onClick={handleAnswer} style={{background: color4}}>
+                {value4}
+              </div>
+            </div>
+          </div>
+
+      </div>
+     
+     <div className='d-flex row'>
+      <div className=" col-4 "  >
+        <button className='page' onClick={handlePrevQuestion}>
+        prev</button>
+
         
-         </div>
-
-         <div className="d-flex row">
-          <div className="button col-6">
-              <button className='action' onClick={handleAnswer} style={{background: color3}}>
-          {value3}
-         </button>
-          </div>
-         <div className="button col-6">
-          <button className='action' onClick={handleAnswer} style={{background: color4}}>
-          {value4}
-         </button>
-
-         </div>
-         
-         </div>
-
-         </div>
-         
-         <div className='d-flex row'>
-          <div className=" col-4 "  >
-            <button className='page' onClick={handlePrevQuestion}>
-            prev</button>
-
-            
-          </div>
-          <div className=" col-4 ms-auto" >
-                <button className='page' onClick={handleNextQuestion}>next</button>
-          </div>
+      </div>
+      <div className=" col-4 ms-auto" >
+            <button className='page' onClick={handleNextQuestion}>next</button>
+      </div>
+  
+     </div>
       
-         </div>
-          
 
-          </div>
-          <div className="row">
-            <div className="col-5 mx-auto">
-             <button className='btn-exp' onClick={handleExplanation}>explanation</button> 
-            </div>
-          </div>
-          
-          {explanation==true?
-          <div className="row">
-            <div className="col-12 col-sm-8 mx-auto">
-               <button className="explanation">
-          {questions[currentQuestion].explanation}
-           </button>
-            </div>
-       
-       </div>:""
-          
-          }
-       
-
-       
+      </div>
+      <div className="row">
+        <div className="col-5 mx-auto">
+         <button className='btn-exp' onClick={handleExplanation}>explanation</button> 
+        </div>
       </div>
       
-    </div>
+      {explanation===true?
+      <div className="container-fluid">
+        <div className="col-11 d-flex justify-content-center col-sm-8 mx-auto">
+           <button className="explanation">
+      {questions[currentQuestion].explanation}
+       </button>
+        </div>
+   
+   </div>:""
+      
+      }
+   
+
+   
+  </div>
+  
+</div>
   );
 }
 

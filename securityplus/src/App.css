@@ -14,7 +14,7 @@
   transition: ease-in-out 5s;
 }
 body{
-  background-color: black;
+  background-color: rgb(241, 225, 225);
 }
 
 
@@ -23,20 +23,23 @@ body{
   background-color: rgb(10, 41, 82);
   color: white;
   font-weight: 700;
-  border-top-right-radius: 2rem ;
-  border-top-left-radius:2rem ;
-  border-bottom-left-radius:2rem ;
-  border-bottom-right-radius: 2rem;
+  border-top-right-radius: .2rem ;
+  border-top-left-radius:.2rem ;
+  border-bottom-left-radius:.2rem ;
+  border-bottom-right-radius: .2rem;
   box-shadow: 1px 1px .2rem blue;
   padding: .2rem;
 }
 .action{
   font-weight: 700;
-  border-top-right-radius: 1rem ;
-  border-top-left-radius:1rem ;
-  border-bottom-left-radius:1rem ;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: .1rem ;
+  border-top-left-radius:.1rem ;
+  border-bottom-left-radius:.1rem ;
+  border-bottom-right-radius: .1rem;
   margin-bottom: 3rem;
+  cursor: pointer;
+  height: 100px;
+  width: 500px;
 }
 
 .explanation{
@@ -44,10 +47,10 @@ body{
   color: white;
   box-shadow: 1px 1px .2rem blue;
   font-weight: 700;
-  border-top-right-radius: 2rem ;
-  border-top-left-radius:2rem ;
-  border-bottom-left-radius:2rem ;
-  border-bottom-right-radius: 2rem;
+  border-top-right-radius: .2rem ;
+  border-top-left-radius:.2rem ;
+  border-bottom-left-radius:.2rem ;
+  border-bottom-right-radius: .2rem;
   margin-top: 4rem;
 }
 
@@ -55,10 +58,10 @@ body{
   font-weight: 600;
   padding: .2rem 1.5rem;
   font-size: 1.2rem;
-  border-top-right-radius: 1rem ;
-  border-top-left-radius:1rem ;
-  border-bottom-left-radius:1rem ;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: .1rem ;
+  border-top-left-radius:.1rem ;
+  border-bottom-left-radius:.1rem ;
+  border-bottom-right-radius: .1rem;
   background-color: rgb(11, 187, 11);
   box-shadow: 1px 1px .1rem rgb(3, 121, 19);
 }
@@ -74,10 +77,10 @@ body{
   font-weight: 500;
   font-size: 1.2rem;
   padding: .2rem .9rem;
-  border-top-right-radius: 1rem ;
-  border-top-left-radius:1rem ;
-  border-bottom-left-radius:1rem ;
-  border-bottom-right-radius: 1rem;
+  border-top-right-radius: .1rem ;
+  border-top-left-radius:.1rem ;
+  border-bottom-left-radius:.1rem ;
+  border-bottom-right-radius: .1rem;
   background-color: rgb(11, 187, 11);
   margin-top: 3rem;
 }
@@ -102,5 +105,16 @@ body{
 @media(max-width:500px){
   .question{
     padding: .5rem;
+  }
+  .action{
+    margin:auto;
+    margin-bottom: 1rem;
+    height: 100px;
+    width: 320px;
+    padding: 1rem;
+  }
+  .explanation{
+    justify-self: center;
+    margin-top: 4rem;
   }
 }

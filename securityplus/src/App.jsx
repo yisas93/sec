@@ -519,22 +519,22 @@ const [color2, setColor2]= useState("white")
 const [color3, setColor3]= useState("white")
 const [color4, setColor4]= useState("white")
 const handleAnswer=()=>{
-  if (value1 == questions[currentQuestion].answer){
+  if (value1 === questions[currentQuestion].answer){
     setColor(" rgb(0, 255, 0)")
   }else{
     setColor("red")
   }
-  if (value2 == questions[currentQuestion].answer){
+  if (value2 === questions[currentQuestion].answer){
     setColor2(" rgb(0, 255, 0)")
   }else{
     setColor2("red")
   }
-  if (value3 == questions[currentQuestion].answer){
+  if (value3 === questions[currentQuestion].answer){
     setColor3(" rgb(0, 255, 0)")
   }else{
     setColor3("red")
   }
-  if (value4 == questions[currentQuestion].answer){
+  if (value4 === questions[currentQuestion].answer){
     setColor4(" rgb(0, 255, 0)")
   }else{
     setColor4("red")

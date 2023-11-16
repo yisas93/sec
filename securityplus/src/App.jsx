@@ -182,172 +182,172 @@ const questions=[
     explanation:"Input sanitization can help prevent attackers from learning the service account name by removing potentially harmful characters from user input, reducing the likelihood of successful injection attacks."
   },
     {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"You've hired a third-party to gather information about your company's servers and data. The third-party will not have direct access to your internal network but can gather information from any other source. Which of the following would BEST describe this approach?",
+    answer:"Passive footprinting",
+    options:["Backdoor testing","Passive footprinting","OS fingerprinting","Partially known environment"],
+    explanation:"Passive footprinting focuses on learning as much information from open sources such as social media, corporate websites, and business organizations."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"Which of these threat actors would be MOST likely to attack systems for direct financial gain?",
+    answer:"Organized crime",
+    options:["Organized crime","Hacktivist","Nation State","Competitor"],
+    explanation:"An organized crime actor is motivated by money, and their hacking objectives are usually based around objectives that can be easily exchanged for financial capital"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"An IPS at your company has found a sharp increase in traffic from all-in-one printers. After researching, your security team has found a vulnerability associated with these devices that allows the device to be remotely controlled by a third-party. Which category would BEST describe these devices",
+    answer:"MFD",
+    options:["IoT","RTOS","MFD","SoC"],
+    explanation:"An all-in-one printer that can print, scan, and fax is often categorized as an MFD (Multifunction Device)."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"Which of the following standards provides information on privacy and managing PII",
+    answer:"ISO 27701",
+    options:["ISO 31000","ISO 27002","ISO 27701","ISO 27001"],
+    explanation:"The ISO (International Organization for Standardization) 27701 standard extends the ISO 27001 and 27002 standards to include detailed management of PII (Personally Identifiable Information) and data privacy"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"Elizabeth, a security administrator, is concerned about the potential for data exfiltration using external storage drives. Which of the following would be the BEST way to prevent this method of data exfiltration?",
+    answer:"Create an operating system security policy to prevent the use of removable media",
+    options:["Create an operating system security policy to prevent the use of removable media","Monitor removable media usage in host-based firewall logs","Only allow applications that do not use removable media","Define a removable media block rule in the UTM"],
+    explanation:"Removable media uses hot-pluggable interfaces such as USB to connect storage drives. A security policy in the operating system can prevent any files from being written to a removable drive"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A CISO would like to decrease the response time when addressing security incidents. Unfortunately, the company does not have the budget to hire additional security engineers. Which of the following would assist the CISO with this requirement?",
+    answer:"SOAR",
+    options:["ISO 27001","PKI","IaaS","SOAR"],
+    explanation:"SOAR (Security Orchestration, Automation, and Response) is designed to make security teams more effective by automating processes and integrating third-party security tools."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:" Rodney, a security engineer, is viewing this record from the firewall logs:UTC 04/05/2018 03:09:15809 AV Gateway Alert 136.127.92.171 80 -> 10.16.10.14 60818 Gateway Anti-Virus Alert:XPACK.A_7854 (Trojan) blocked.Which of the following can be observed from this log information?",
+    answer:"A download was blocked from a web server",
+    options:["The victim's IP address is 136.127.92.171","A download was blocked from a web server","A botnet DDoS attack was blocked","The trojan was locked but the file was not"],
+    explanation:"A traffic flow from a web server port number (80) to a device port (60818) indicates that this traffic flow originated on port 80 of the web server. A file download is one of the most common ways to deliver a Trojan, and this log entry shows that the file containing the XPACK.A_7854 Trojan was blocked."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:" A user connects to a third-party website and receives this message:Your connection is not private. NET::ERR_CERT_INVALIDWhich of the following attacks would be the MOST likely reason for this message?",
+    answer:"On-path",
+    options:["Brute-force","DoS","On-path","Dissasociation"],
+    explanation:"An on-path attack is often associated with a third-party who is actively intercepting network traffic. This entity in the middle would not be able to provide a valid SSL certificate for a third-party website, and this error would appear in the browser as a warning"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"Which of the following would be the BEST way to provide a website login using existing credentials from a third-party site?",
+    answer:"Federation",
+    options:["Federation","802.1x","PEAP","EAP-FAST"],
+    explanation:"Federation would allow members of one organization to authenticate using the credentials of another organization"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A system administrator, Daniel, is working on a contract that will specify a minimum required uptime for a set of Internet-facing firewalls. Daniel needs to know how often the firewall hardware is expected to fail between repairs. Which of the following would BEST describe this information?",
+    answer:"MTBF",
+    options:["MTBF","RTO","MTTR","MTTF"],
+    explanation:"he MTBF (Mean Time Between Failures) is a prediction of how often a repairable system will fail."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"An attacker calls into a company's help desk and pretends to be the director of the company's manufacturing department. The attacker states that they have forgotten their password and they need to have the password reset quickly for an important meeting. What kind of attack would BEST describe this phone call?",
+    answer:"Social engineering",
+    options:["Social engineering","Tailgating","Vishing","On-path"],
+    explanation:"A social engineering attack takes advantage of authority and urgency principles in an effort to convince someone else to circumvent normal security controls."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A security administrator has been using EAP-FAST wireless authentication since the migration from WEP to WPA2. The company's network team now needs to support additional authentication protocols inside of an encrypted tunnel. Which of the following would meeet the network team's requirements",
+    answer:"EAP-TTLS",
+    options:["EAP-TLS","PEAP","EAP-TTLS","EAP-MSCHAPv2"],
+    explanation:"EAP-TTLS (Extensible Authentication Protocol - Tunneled Transport Layer Security) allows the use of multiple authentication protocols transported inside of an encrypted TLS (Transport Layer Security) tunnel. This allows the use of any authentication while maintaining confidentiality with TLS."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"The embedded OS in a company's time clock appliance is configured to reset the file system and reboot when a file system error occurs. On one of the time clocks, this file system error occurs during the startup process and causes the system to constantly reboot. Which of the following Best describes this issue?",
+    answer:"Race condition",
+    options:["DLL injection","Resource exhaustion","Race condition","Weak configuration"],
+    explanation:"A race condition occurs when two processes occur at similar times, usually with unexpected results. The file system problem is usually fixed before a reboot, but a reboot is occurring before the fix can be applied. This has created a race condition that results in constant reboots"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A security team has been provided with a non-credentialed vulnerability scan report created by a third-party. Which of the following would they expect to see on this report?",
+    answer:"The version of web server software in use",
+    options:["A summary of all files with invalid group assignments","A list of all unpatched operating system files","The version of web server software in use","A list of local user accounts"],
+    explanation:"A scanner like Nmap can query services and determine version numbers without any special rights or permissions, which makes it well suited for non-credentialed scans"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A business manager is documentating a set of steps for processing orders if the primary Internet connection fails. Which of these would best describe these steps?",
+    answer:"Continuity of operations",
+    options:["Communication plan","Continuity of operations","Stakeholder management","Tabletop exercise"],
+    explanation:"It's always useful to have an alternative set of processes to handle any type of outage or issue. Continuity of operations planning ensures that the business will continue to operate when these issues occur."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A security administrator is concerned about data exfiltration resulting from the use of malicious phone charging stations. Which of the following would be the best way to protect against this threat?",
+    answer:"USB data blocker",
+    options:["USB data blocker","Personal firewall","MFA","FDE"],
+    explanation:"USB data blockers are physical USB cables that allow power connections but prevent data connections. With a USB data blocker attached, any power source can be used without a security concern"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A company would like to protect the data stored on laptops used in the field. Which of the following would be the best choice for this requirement",
+    answer:"SED",
+    options:["MAC","SED","CASB","SOAR"],
+    explanation:"A SED (Self-Encrypting Drive) provides data protection of a storage device using full-disk encryption in the drive hardware"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A file server has full backup performed each monday at 1 am. Incremental backups are performed at 1 am on tuesday, wednesday, thursday and friday. The system administrator needs to perform a full recovery of the file server on thursday afternoon. How many backup sets would be required to complete the recovery?",
+    answer:"4",
+    options:["2","3","4","1"],
+    explanation:"Each incremental backup will archive all of the files that have changed since the last full or incremental backup. To complete this full restore, the administrator will need the full backup from Monday and the incremental backups from Tuesday, Wednesday, and Thursday"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A security engineer runs a monthly vulnerability scan. The scan doesn't list any vulnerabilities for Windows servers, but a significant vulnerability was announced last week and none of the servers are patched yet. Which of the following best describes this result?",
+    answer:"False negative",
+    options:["Exploit","Credentialed","Zero-day attack","False negative"],
+    explanation:"A false negative is a result that fails to detect an issue when one actually exists"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A network administrator would like each user to authenticate with their personal username and password when connecting to the company's wireless network. Which of the following should the network administrator configure on the wireless access points?",
+    answer:"802.1x",
+    options:["WPA2-PSK","802.1x","WPS","WPA2-AES"],
+    explanation:"802.1X uses a centralized authentication server, and all users can use their normal credentials to authenticate to an 802.1X network."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A user has assigned individual rights and permissions to a file on their network drive. The user adds three additional individuals to have read-only access to the file. Which of the following would describe this access control mode?",
+    answer:"DAC",
+    options:["DAC","MAC","ABAC","RBAC"],
+    explanation:"DAC (Discretionary Access Control) is used in many operating systems, and this model allows the owner of the resource to control who has access"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A remote user has received a text message requesting login details to the corporate VPN server. Which of the following would BEST describe this message?",
+    answer:"Smishing",
+    options:["Brute force","Prepending","Typosquatting","Smishing"],
+    explanation:"Smishing, or SMS phishing, is a social engineering attack that asks for personal information using SMS or text messages"
   },
   {
-    question:"",
+    question:"A company hires a large number of seasonal employees, and their system access should normally be disabled when the employee leaves the company. The security administrator would like to verify that their systems cannot be accessed by any of the former employees. Which of the following would be the best way to provide this verification?",
     answer:"",
-    options:["","","",""],
-    explanation:""
+    options:["Confirm that no unauthorized accounts have administrator access","Validate the account lockout policy","Validate the process and procedures for all outgoing employees","Create a report that shows all authentications for a 24-hour period"],
+    explanation:"The disabling of an employee account is commonly part of the offboarding process. One way to validate an offboarding policy is to perform an audit of all accounts and compare active accounts with active employees"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A manufacturing company has moved an inventory application from their internal systems to a PaaS service. Which of the following would be the best way to manage security policies on this new service?",
+    answer:"CASB",
+    options:["DLP","SIEM","IPS","CASB"],
+    explanation:"A CASB (Cloud Access Security Broker) is used to manage compliance with security policies when using cloud-based applications."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"An organization has identified a significant vulnerability in a firewall used for Internet connecivity. The firewall company has stated there are no plans to create a patch for this vulnerability. Which of the following would best describe this issue?",
+    answer:"Lack of vendor support",
+    options:["Lack of vendor support","Improper input handling","Improper key management","End-of-life"],
+    explanation:"Security issues can be identified in a system or application at any time, so it’s important to have a vendor that can support their software and correct issues as they are discovered. If a vendor won’t provide security patches, then you may be susceptible to security vulnerabilities"
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A security administrator needs to identify all computers on the company network infected with a specific malware variant. Which of the following would be the BEST way to identify these systems?",
+    answer:"DNS sinkhole",
+    options:["Honeynet","Data masking","DNS sinkhole","DLP"],
+    explanation:"A DNS (Domain Name System) sinkhole can be used to redirect and identify devices that may attempt to communicate with an external command and control (C2) server. The DNS sinkhole will resolve an internal IP address and can report on all devices that attempt to access the malicious domain."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"A system administrator has been called to a system that is suspended to have a malware infection. The administrator has removed the device from the network and has disconnected all USB flash drives. Which of these incident response steps is the administrator following?",
+    answer:"Containment",
+    options:["Lessons learned","Containment","Detection","Reconstitution"],
+    explanation:"The containment phase isolates the system from any other devices to prevent the spread of any malicious software."
   },
   {
-    question:"",
-    answer:"",
-    options:["","","",""],
-    explanation:""
+    question:"Which part of the PC startup process verifies the digital signature of the OS kernel?",
+    answer:"Trusted boot",
+    options:["Measured boot","Trusted boot","Secure boot","POST"],
+    explanation:"he Trusted Boot portion of the startup process verifies the operating system kernel signature and starts the ELAM (Early Launch Anti-Malware) process."
   },
   {
     question:"",
